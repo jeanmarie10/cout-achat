@@ -8,3 +8,4 @@ const montant_ht = prix_unitaire * quantite;
 const montant_tva = montant_ht * taux_tva / 100;
 const montant_ttc = montant_ht + montant_tva;
 const montant_final = montant_ttc + frais_livraison;
+const prix_moyen_ttc = montant_ttc / quantite;
