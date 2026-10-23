@@ -14,3 +14,5 @@ console.log("Client :", nom_client);
 console.log("Produit :", nom_produit);
 console.log("Prix unitaire :", prix_unitaire, "FCFA");
 console.log("Quantité :", quantite);
+console.log("Montant des produits :", montant_ht, "FCFA");
+console.log("TVA (" + taux_tva + "%) :", montant_tva, "FCFA");
