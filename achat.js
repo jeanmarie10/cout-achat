@@ -9,3 +9,8 @@ const montant_tva = montant_ht * taux_tva / 100;
 const montant_ttc = montant_ht + montant_tva;
 const montant_final = montant_ttc + frais_livraison;
 const prix_moyen_ttc = montant_ttc / quantite;
+console.log("===== REÇU DE COMMANDE =====");
+console.log("Client :", nom_client);
+console.log("Produit :", nom_produit);
+console.log("Prix unitaire :", prix_unitaire, "FCFA");
+console.log("Quantité :", quantite);
